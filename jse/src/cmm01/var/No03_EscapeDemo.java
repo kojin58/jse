@@ -1,6 +1,6 @@
 package cmm01.var;
 
-public class EscapeDemo {
+public class No03_EscapeDemo {
     public static void main(String[] args) {
 		int kor = 90;
 		int eng = 85;
@@ -8,9 +8,9 @@ public class EscapeDemo {
 		
 		sum = kor + eng;
 		
-		System.out.print("Á¾ÇÕ¼ºÀû\n");
+		System.out.print("ï¿½ï¿½ï¿½Õ¼ï¿½ï¿½ï¿½\n");
 		System.out.println("====================");
-		System.out.println("±¹¾î\¿µ¾î\¼öÇÐ");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½");
 	    System.out.println(kor+"\t"+ eng+"\t"+sum);
 	}
     
