@@ -1,6 +1,7 @@
 package cmm01.var;
 
-class Var{
+class Var
+{
 	public static void main(String[] args) {
 		/*
 		 * 변수의 종류 8가지
