@@ -1,6 +1,6 @@
 package cmm03.flow;
 
-public class No05_FowDemo {
+public class No05_FlowDemo {
 	public static void main(String[] args) {
 		int a =0;
 		for(int i=1;i<11;i++){
