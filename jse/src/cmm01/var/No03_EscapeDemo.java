@@ -1,4 +1,4 @@
-package cmm01.var;
+/*package cmm01.var;
 
 public class No03_EscapeDemo {
     public static void main(String[] args) {
@@ -15,3 +15,4 @@ public class No03_EscapeDemo {
 	}
     
 }
+*/
