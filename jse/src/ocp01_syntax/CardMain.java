@@ -14,8 +14,8 @@ public class CardMain {
 	     * 
 	     * */
 	    
-	    System.out.println("당신 카드의" + " 숫자"+"는" + yourCard +"이고"
-	    		+ " 내 카드" +" 숫자"+"는"+ " 3"+ " 이므로"
+	    System.out.println("당신 카드의" + " 숫자"+"는" + yourCard.getNumber() +"이고"
+	    		+ " 내 카드" +" 숫자"+"는"+ myCard.getNumber()+ " 이므로"
 	    		+ " 당신이 이겼습니다.");
 	}
 
