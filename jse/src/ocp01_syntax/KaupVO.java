@@ -38,7 +38,7 @@ public class KaupVO {
 		this.idx = idx;
 	}
 	public void setIdx(double height, double weight){
-		//this.idx = ()
+		this.idx = (int)((weight/(height*height))*10000);
 	}
 
 	public String getMsg( ) {
