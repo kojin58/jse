@@ -40,7 +40,7 @@ public class KaupVO {
 	public void setIdx(double height, double weight){
 		this.idx = (int)((weight/(height*height))*10000);
 	}
-
+	//Alt + Shift + s -> toString
 	public String getMsg( ) {
 		String msg = "";
 		if(idx > 30){
@@ -55,9 +55,10 @@ public class KaupVO {
 			msg = "마름";
 		}else if(idx > 10){
 			msg = "영양실조";
-		}else
+		}else{
+			msg = "소모증";	
+		}
 			
-		return msg;
 		return msg;
 	}
 
@@ -68,7 +69,7 @@ public class KaupVO {
 	@Override
 	public String toString() {
 		return "카우프지수 [height=" + height + ", weight=" + weight + ", idx="
-				+ idx + ", msg=" + msg + "]";
+				+ idx + ", msg=" + msg + this.getMsg() + "]";
 	}
 	
 	
