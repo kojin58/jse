@@ -6,12 +6,12 @@ public class InnerClassAnonyServiceimpl {
 		new InnerClassAnonyService(){
 
 			@Override
-			public void printData() {
+			public void printfData() {
 				System.out.println("익명 내부 클래스 출력 : " + data);
 				
 			}
 			
-		}.printData();
+		}.printfData();
 	}
 	
 }
