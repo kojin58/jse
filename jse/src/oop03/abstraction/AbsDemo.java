@@ -1,4 +1,4 @@
-package oop02_inhelbtance;
+package oop03.abstraction;
 
 public abstract class AbsDemo {
 	public static void main(String[] args) {

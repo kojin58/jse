@@ -1,4 +1,4 @@
-package oop02_inhelbtance;
+package oop03.abstraction;
 /*
 Date : 0522
 Author : 고진광

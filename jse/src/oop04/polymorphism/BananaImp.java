@@ -1,6 +1,5 @@
 package oop04.polymorphism;
 
-import oop02_inhelbtance.FruitInterface;
 
 public class BananaImp implements FruitInterface{
 

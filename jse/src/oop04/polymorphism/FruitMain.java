@@ -1,7 +1,5 @@
-package oop02_inhelbtance;
+package oop04.polymorphism;
 
-import oop04.polymorphism.AppleImp;
-import oop04.polymorphism.BananaImp;
 
 public class FruitMain {
 	public static void main(String[] args) {

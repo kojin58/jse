@@ -1,4 +1,4 @@
-package oop02_inhelbtance;
+package oop04.polymorphism;
 /*
 Date : 0522
 Author : 고진광
