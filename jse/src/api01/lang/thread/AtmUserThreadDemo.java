@@ -10,24 +10,39 @@ public class AtmUserThreadDemo {
 		hong.start();
 		kim.start();
 		moon.start();
+	//	hong.start();
+	//	main() 내부에서는 한 객체는 한 스레드만 호출해야한다.
+	//	만약 한 객체가 두번이상의 스레드를 호출하면
+	//	java.lang.IllegalThreadStateException 이 발생한다.
 	}
-
 }
-class AtmUser extends Thread{	
+class AtmUser extends Thread{
 	Atm atm;
 	String name;
-	
-	public AtmUser extends Thread{
+	public AtmUser(Atm atm, String name) {
+		super();
+		this.atm = atm;
+		this.name = name;
+	}
+	@Override
+	public void run() {
+		atm.inchul(name);
 	}
 }
 class Atm{
+	/*
+	 synchronized는 언어의 뜻으로는 동기화 이나 사실
+	 기능 자체는 스레드에 Lock을 걸어서 
+	 공유값인 필드의 값이 공유상태에서 원래 취지의 값이 아닌
+	 잘못된 값으로 나타나는 것을 방지하는 키워드
+	 */
 	public synchronized void inchul(String name){
-		System.out.println(name + "님꼐서 인출 요청함");
-		for(int i=0;i< 1000000;i++){
+		System.out.println(name + "님 께서 인출요청함");
+		for(int i=0; i<=10000000; i++){
 			if(i==10000){
 				System.out.println(name + "인출중..");
 			}
 		}
-		System.out.println(name + " 님 인출해서 나감");
+		System.out.println(name + "님 인출해서 나감");
 	}
 }
